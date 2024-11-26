@@ -2,7 +2,7 @@ import random
 import string
 
 def generate_password(length, use_digits=True, use_special_chars=True):
-    "Генерация случайного пароля с заданными условиями."
+print("Генерация случайного пароля с заданными условиями.")
     
     #набор символов по умолчанию:
     chars = string.ascii_letters
